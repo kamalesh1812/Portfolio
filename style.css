@@ -987,10 +987,19 @@ img.education-img{
     .skills-details-container div p{
         font-size: 0.6rem;
     }
+    .contact-info-container p {
+        font-size: unset
+    } 
+    .skills-details-container {
+        margin-top: 8px;
+    }
+    .hamburg{
+        position: absolute;
+        top: 25px;
 
 }
 
-@media (max-width:320px){
+@media (max-width:350px){
     .logo{
         font-size: 1rem;
     }
@@ -1022,4 +1031,10 @@ img.education-img{
         font-size: 0.75rem;
     }
 
+    .contact-info-container p {
+        font-size: unset
+    } 
+
+ }
+ 
 }
